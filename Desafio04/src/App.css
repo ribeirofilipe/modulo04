@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  height: 1024px;
+  background: #F2F2F2;
+  margin: auto;
+}
+
+header {
+  background: #4a90e2;
+  display: flex;
+  justify-content: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  padding: 0 42px;
+  color: #fff;
+  min-width: 980px;
+  font-size: 14px;
+}
+
+nav img {
+  height: 24px;
+}
+
+nav > span {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav > div {
+  display: flex;
+  align-items: center;
+}
+
+nav > div i {
+  margin-left: 8px;
+}
+
+.post {
+  width: 40%;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.133916);
+  border-radius: 4px;
+  margin: auto;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.author-avatar {
+  width: 32px;
+  height: 32px;
+  margin-left: 20px;
+  margin-top: 22px;
+  border-radius: 16px;
+}
+
+.author-name {
+  height: 17px;
+  margin-left: 8.45%;
+  margin-right: 0%;
+  margin-top: -35px;
+  font-family: Helvetica;
+  font-size: 14px;
+  line-height: 16px;
+  color: #4A4A4A;
+  font-weight: bold;
+}
+
+.date {
+  margin-left: 3.4%;
+  font-size: 11px;
+  position: absolute;
+  font-family: Helvetica;
+  font-size: 11px;
+  line-height: 13px;
+  color: #9A9A9A;
+}
+
+.author-content {
+  width: 660px;
+  margin-left: 3%;
+  margin-top: 3%;
+  margin-bottom: 1%;
+  font-family: Helvetica;
+  font-size: 14px;
+  line-height: 22px;
+  color: #3E3E3E;
+}
+
+.comment {
+  width: 622px;
+  margin-top: 20px;
+  margin-left: 13px;
+  background: #EEEEEE;
+  border-radius: 20px;
+  padding: 12px;
+  font-family: Helvetica;
+  font-size: 13px;
+  line-height: 20px;
+  color: #3E3E3E;
+}
+
+.comment-box {
+  display: flex;
+}
+
+.user-avatar {
+  width: 32px;
+  height: 32px;
+  margin-left: 20px;
+  margin-top: 2.51%;
+  border-radius: 16px;
+}
+
+.rectangle {
+  width: 95%;
+  margin: auto;
+  height: 1px;
+  background: #EEEEEE;
+}
+  
+.footer {
+  margin-top: 20px;
+  background-color: #4a90e2;
+  color: white;
+  height: 100px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.footer > img {
+  margin-left: 43%;
+  margin-top: 1%;
+}
